@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fdfdfd;
+    color: #121212;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    margin: 5vw;
+    color: #0066ff;
+}
+
+img {
+    height: 150px;
+    cursor: pointer;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10vw;
+}
+
+p {
+    text-align: center;
+    margin: 15px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 18vw;
+}
+
+.infos {
+    position: relative;
+    border-radius: 20px;
+    z-index: 1;
+    margin: -80vh 25vw;
+    height: 65vh;
+    width: 50vw;
+    background-color: #fdfdfdec;
+    border: 1px solid #0066ff;
+    display: none;
+}
