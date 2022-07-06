@@ -2,9 +2,7 @@ infos = document.querySelector('.infos');
 title = document.querySelector('.title');
 content = document.querySelector('.content');
 
-change = () => {
-    infos.style.display = 'block';
-}
+change = () => infos.style.display = 'block';
 
 function skill1() {
     change();
